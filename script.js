@@ -15,4 +15,5 @@ const clickerInput = document.querySelector('.clickerInput');
 clicker.addEventListener("click", () => {
     newElement(clickerInput.value);
     console.log(clickerInput.value);
+    clickerInput.value = 0;
 });
